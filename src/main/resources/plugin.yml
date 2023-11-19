@@ -1,0 +1,34 @@
+name: PhysicalEconomy
+version : 1.0
+author: Ultrajungleboy
+main: me.ultrajungleboy.physicaleconomy.PhysicalEconomy
+api-version: 1.19
+depend: [BetonQuest]
+commands:
+  givemoney:
+    description: Gives dollar bills $_$.
+    usage: /<command> Amount Dollartype
+  removemoney:
+    description: Removes dollar bills.
+    usage: /<command>
+  itemslot:
+    description: check item slot.
+    usage: /<command>
+  shophand:
+    description: create a shop
+    usage: /<command>
+  createshop:
+    description: creates a base template for a shop
+    usage: /<command>
+  openshop:
+    description: opens a desired shop
+    usage: /<command>
+  editshop:
+    description: edits a desired shop
+    usage: /<command> shopname player
+  withdraw:
+    description: withdraws money from a bank
+    usage: /<command> amount player
+  banking:
+    description: opens the bank menu
+    usage: /<command> player
